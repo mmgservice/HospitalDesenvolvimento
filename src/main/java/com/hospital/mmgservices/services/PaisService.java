@@ -13,8 +13,15 @@ public class PaisService {
 
 	@Autowired
 	private PaisRepository paisRepository;
-	
-	public List<Pais> findAll(){
+
+	public List<Pais> findAll() {
 		return paisRepository.findAll();
 	}
+
+	/*
+	 * public List<Cidade> findByEstado(Integer estadoId) { return
+	 * repo.findCidades(estadoId); }
+	 * 
+	 */
+
 }

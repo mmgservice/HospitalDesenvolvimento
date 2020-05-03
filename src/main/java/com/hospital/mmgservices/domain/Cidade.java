@@ -23,11 +23,10 @@ public class Cidade implements Serializable {
 	private String nome;
 
 	@ManyToOne
-	@JoinColumn(name = "estado_id")	
+	@JoinColumn(name = "estado_id")
 	private Estado estado;
-	
-	private Paciente paciente;
 
+	private Paciente paciente;
 
 	public Cidade() {
 
@@ -40,11 +39,6 @@ public class Cidade implements Serializable {
 		this.estado = estado;
 		this.paciente = paciente;
 	}
-
-
-
-
-
 
 	public Integer getId() {
 		return id;
@@ -69,16 +63,14 @@ public class Cidade implements Serializable {
 	public void setEstado(Estado estado) {
 		this.estado = estado;
 	}
-	
+
 	public Paciente getPaciente() {
 		return paciente;
 	}
 
-
 	public void setPaciente(Paciente paciente) {
 		this.paciente = paciente;
 	}
-
 
 	@Override
 	public int hashCode() {
