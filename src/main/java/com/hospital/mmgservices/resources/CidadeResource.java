@@ -17,6 +17,8 @@ import com.hospital.mmgservices.services.CidadeService;
 @RequestMapping(value = "/cidades")
 public class CidadeResource {
 
+	// Criado Por Gustavo Teste Branch
+
 	@Autowired
 	private CidadeService cidadeService;
 
