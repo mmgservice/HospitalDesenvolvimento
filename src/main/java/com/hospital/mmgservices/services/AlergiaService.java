@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 import com.hospital.mmgservices.domain.Alergia;
 import com.hospital.mmgservices.repository.AlergiaRepository;
 
-
+//teste
 
 @Service
 public class AlergiaService {
