@@ -13,7 +13,6 @@ import javax.persistence.Id;
 @Entity
 public class Alergia implements Serializable {
 
-	//Criando Serializable
 	private static final long serialVersionUID = 1L;
 
 	@Id
